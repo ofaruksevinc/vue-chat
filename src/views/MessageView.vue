@@ -92,6 +92,7 @@
           <button
               :disabled="disableBtn"
               @click="sendMessage"
+              @keyup.enter="sendMessage"
               class="ml-3 p-2 w-12 flex items-center justify-center"
           >
             <SendIcon fillColor="#515151" />
